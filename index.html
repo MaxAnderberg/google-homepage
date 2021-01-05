@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="top-nav-container">
+                <ul class="top-nav-ul">
+                    <li>
+                        <a id="gmail-nav" class="gmail-image" href="#">Gmail</a>
+                    </li>
+                    <li>
+                        <a id="image-nav" href="#">Images</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i id="lols" class="material-icons">apps</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="user-icon" src="images/linkedIn_profil.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="logo-container">
+                <img src="images/google_color_logo.png" alt="">
+            </div>
+            <div class="form-container">
+                <div class="custom-form-border">
+                    <span id="search-icon" class="material-icons">search</span>
+                    <form action="https://www.google.se/search" id="search-form">
+                        <label for="search-box">
+                            <input type="text" name="q" class="styled-text-form" id="search-box">
+                        </label>
+                    </form>
+                    <span id="mic-logo-container">
+                        <img id="mic-icon" src="/images/google_mic_icon.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="button-container">
+                <!-- TODO: LINK FORM TO CORRECT BUTTON - USE ID IN FORM VALUE -->
+                <button type="submit" form="search-form">Google Search</button>
+                <button form="">I'm Feeling Lucky</button>
+            </div>
+            <div>
+                <p class="offered-language">
+                    Google offered in: &nbsp<a class="language-link" href="#">svenska</a>
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div class="bottom-nav-container">
+                <nav class="bottom-top-nav">
+                    <ul>
+                        <span class="bottom-top-shift-left">
+                            <a href="#">Sweden</a>
+                        </span>
+                </nav>
+                <nav class="bottom-bottom-nav">
+                    <span class="bottom-shift-left">
+                        <a href="#">Advertising</a>
+                        <a href="#">Business</a>
+                        <a href="#">About</a>
+                        <a href="#">How Search works</a>
+                    </span>
+                    <span class="bottom-shift-right">
+                        <a href="#">Privacy</a>
+                        <a href="#">Terms</a>
+                        <a href="#">Settings</a>
+                    </span>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
