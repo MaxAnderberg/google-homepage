@@ -63,14 +63,14 @@ a:hover{
     margin-right: 8px;
 }
 
-#lols{
+#square-icon{
     color: #737373;
     vertical-align: middle;
     top: -4px;
     position: relative;
 }
 
-#lols:hover{
+#square-icon:hover{
     color: black;
 }
 
