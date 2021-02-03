@@ -1,15 +1,16 @@
+# Replicating Google homepage
 
-## Replicating the google homepage
+This [assignment's](https://www.theodinproject.com/courses/foundations/lessons/html-css) goal is to replicate the Google homepage without using any online tutorials. I am only allowed to use the knowledge acquired in the course, and to google specific issues that I encounter.
 
-Replicating the google homepage was the first assignment in The Odin Project. The goal was to replicate it without using any tutorials, only using the knowledge acquired in the course, and whatever is available on google. 
 
-Throughout the project, I encountered difficulties, such as: 
-* Horizontally aligning items
-* Finding the correct CSS property for a particular element
-* Getting everything aligned properly
+## Funcitonality
 
-All in all, I'm happy with the result, and I look forward getting back to this project in a month to apply all the new knowledge I've managed to acquire. 
+Most of the links are dummy links except for the profile icon in the top right which takes the user to my GitHub page. Furthermore, I connected Google's search functionality to the search button - so searching on google is viable. 
 
-### Adding search functionality
+## Learning outcomes
 
-I managed to 'hijack' google's search functionality and connect it to the search button. I have not connected the 'I'm Feeling lucky' button to any functionality, and the links are also 'dummy' links except the user icon in the top right that is linked to my GitHub page.
+Below are a couple of key areas that I found to be challenging: 
+
+* Horizontally aligning items and containers
+* Building the search box container
+* Aligning items properly
