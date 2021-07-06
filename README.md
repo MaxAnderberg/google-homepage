@@ -1,6 +1,6 @@
 # Replicating Google homepage
 
-This [assignment's](https://www.theodinproject.com/courses/foundations/lessons/html-css) goal is to replicate the Google homepage without using any online tutorials. I am only allowed to use the knowledge acquired in the course, and to google specific issues that I encounter.
+One of my first own projects where I tried to re-create the Google homepage. 
 
 
 ## Funcitonality
